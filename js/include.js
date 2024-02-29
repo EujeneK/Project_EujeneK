@@ -1,7 +1,3 @@
-// 퍼블리싱을 위한 include js
-// 컴포넌트 가져다 쓰기 위한 js로 서비스에는 불필요합니다
-
-
 window.addEventListener('load', function() {
     var allElements = document.getElementsByTagName('*');
     Array.prototype.forEach.call(allElements, function(el) {
