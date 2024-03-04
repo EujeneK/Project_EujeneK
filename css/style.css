@@ -1151,7 +1151,6 @@ footer .copy {
     padding-bottom: 0;
     padding: 14px 0 0;
     background-color: #4811E3;
-    z-index: 1;
   }
   .visual .box {
     width: 100%;
@@ -1350,6 +1349,7 @@ footer .copy {
     min-height: 360px;
     margin: 0 auto;
     padding-top: 28px;
+    padding-bottom: 20px;
   }
   .forFree ul li img {
     padding: 0 40px;
@@ -1406,6 +1406,10 @@ footer .copy {
   }
   .descSec .item .textWrap {
     padding-left: 0;
+  }
+  .descSec .item:nth-child(2) .textWrap {
+    padding-left: 0;
+    padding-right: 0px;
   }
   .descSec .item h2 {
     margin-bottom: 12px;
